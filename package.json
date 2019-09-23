@@ -1,7 +1,7 @@
 {
   "name": "@log4js-node/redis",
   "version": "1.0.0",
-  "description": "Redis Appender for log4js-node",
+  "description": "Mongodb Appender for log4js-node",
   "homepage": "https://log4js-node.github.io/log4js-node/",
   "files": [
     "lib",
@@ -20,10 +20,10 @@
   "author": "Gareth Jones <gareth.nomiddlename@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/log4js-node/redis.git"
+    "url": "https://github.com/roypun/redis.git"
   },
   "bugs": {
-    "url": "http://github.com/log4js-node/redis/issues"
+    "url": "http://github.com/roypun/redis/issues"
   },
   "engines": {
     "node": ">=6.0"
@@ -41,7 +41,8 @@
   },
   "dependencies": {
     "debug": "^3.1.0",
-    "redis": "^2.8.0"
+    "lx-helpers": "^0.5.1",
+    "mongodb": "^3.3.2"
   },
   "devDependencies": {
     "@log4js-node/sandboxed-module": "^2.1.1",
@@ -52,8 +53,8 @@
     "eslint-import-resolver-node": "^0.3.1",
     "eslint-plugin-import": "^2.8.0",
     "husky": "^0.14.3",
-    "nyc": "^11.5.0",
-    "tap": "^12.0.1",
+    "nyc": "^14.1.1",
+    "tap": "^14.6.4",
     "validate-commit-msg": "^2.14.0"
   },
   "browser": {

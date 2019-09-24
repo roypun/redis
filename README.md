@@ -1,6 +1,5 @@
 # Mongodb Appender for log4js-node
 
-Stores log events in a [Redis](https://redis.io) database. Plugin for log4js > 2.x
 ```bash
 npm install log4js-mongodb-pan
 ```
@@ -14,9 +13,9 @@ The appender will use the Redis PUBLISH command to send the log event messages t
 ```javascript
 log4js.configure({
   appenders: {
-    redis: { type: 'log4js-mongodb-pan', channel: 'logs' }
+    mongodb: { type: 'log4js-mongodb-pan', channel: 'logs' }
   },
-  categories: { default: { appenders: ['redis'], level: 'info' } }
+  categories: { default: { appenders: ['mongodb'], level: 'info' } }
 });
 ```
 

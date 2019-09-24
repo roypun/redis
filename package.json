@@ -1,6 +1,6 @@
 {
-  "name": "@log4js-node/redis",
-  "version": "1.0.0",
+  "name": "log4js-mongodb-pan",
+  "version": "1.0.1",
   "description": "Mongodb Appender for log4js-node",
   "homepage": "https://log4js-node.github.io/log4js-node/",
   "files": [
